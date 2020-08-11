@@ -3,7 +3,7 @@ I created this model to classify pneumonia disease. I did this project on Kaggle
 * Data from [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 * Configured TPU.
 * Preform Preprocessing on data.
-* Get image data for modeling.
+* Get images data for modeling.
 * Build model using transfer learning.
 * Train Schedule (custom learning rate).
 * Tain model with custom weights because of imbalnce data.
@@ -14,11 +14,20 @@ I created this model to classify pneumonia disease. I did this project on Kaggle
 **Learn from Notebooks:** [Kaggle Notebook](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once). <br>
 **Handling imbalance data:** [tensorflow tutorial](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data).
 ## Configuration
-In this step i configured tpu and set constant values of batch size, image size, number of epochs and test time augmentation size.
+In this step I configured tpu and set constant values of batch size, image size, number of epochs and test time augmentation size.
 ## Preprocessing
 In preprocess prepare files path for training, validation and testing. label the files and perform train test split. <br>
 Also checked for imbalance data.<br>
 **Normal Cases:** 25% <br>
 **Pneumonia Cases:** 75%<br>
 Data was imbalance. I tried to fix by initializing model with custom weights.
-## Get image data for modeling.
+## Get images data for modeling.
+In this step I retrive images from their paths and convert those images data into tensors. I also perform image augmentation.<br>
+**Image Augmentations:**<br>
+* Rotation.
+* Shear.
+* Zoom.
+* Shifting.
+* Random Brightness.
+* Random Flip Left Right.
+## Modeling
