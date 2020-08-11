@@ -9,9 +9,9 @@ I created this model to classify pneumonia disease. I did this project on Kaggle
 * Tain model with custom weights because of imbalnce data.
 * Make predictions with and without test time augmentation.
 ## Code and Resources Used
-**Python Version:** 3.7
-**Packages:** numpy, pandas, kaggle_datasets, tensorflow, keras, matplotlib, efficientnet, sklearn, seaborn, re, math, cv2, PIL, os.
-**Learn from Notebooks:** [Kaggle Notebook](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once).
+**Python Version:** 3.7 <br>
+**Packages:** numpy, pandas, kaggle_datasets, tensorflow, keras, matplotlib, efficientnet, sklearn, seaborn, re, math, cv2, PIL, os.<br>
+**Learn from Notebooks:** [Kaggle Notebook](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once). <br>
 **Handling imbalance data:** [tensorflow tutorial](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data).
 ## Configuration
 In this step i configured tpu and set constant values of batch size, image size, number of epochs and test time augmentation size.
