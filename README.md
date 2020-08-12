@@ -11,7 +11,7 @@ I created this model to classify pneumonia disease. I did this project on Kaggle
 **Python Version:** 3.7 <br>
 **Packages:** numpy, pandas, kaggle_datasets, tensorflow, keras, matplotlib, efficientnet, sklearn, seaborn, re, math, cv2, PIL, os.<br>
 **Learn from Notebooks:** [Kaggle Notebook](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once). <br>
-**Handling imbalance data:** [tensorflow tutorial](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data).
+**Handling imbalance data:** [tensorflow tutorial](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data). <br>
 **EfficientNet B Model:** [Google AI Blog](https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html#:~:text=EfficientNet%3A%20Improving%20Accuracy%20and%20Efficiency%20through%20AutoML%20and%20Model%20Scaling,-Wednesday%2C%20May%2029&text=Powered%20by%20this%20novel%20scaling,efficiency%20(smaller%20and%20faster)).
 ## Configuration
 In this step I configured tpu and set constant values of batch size, image size, number of epochs and test time augmentation size.
