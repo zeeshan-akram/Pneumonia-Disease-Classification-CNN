@@ -72,5 +72,5 @@ Validate True Positive: 760.0000 <br>
 Validate Accuracy: 0.9713 <br>
 ## Predictions
 Made predictions with and without test time augmentation on test files. <br>
-**Accuracy without TTA:** 88.30%
+**Accuracy without TTA:** 88.30% <br>
 **Accuracy with TTA:** 87.34%
