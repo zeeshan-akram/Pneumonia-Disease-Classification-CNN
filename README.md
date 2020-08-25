@@ -1,5 +1,5 @@
 # Pneumonia Disease Classification: Project Overview
-I created this model to classify pneumonia disease. I did this project on Kaggle where I used TPU (tensorflow processing unit) which is 25% faster than GPU.
+I created this model to classify pneumonia disease. I did this project on Kaggle virtual machine to experience of modeling on TPU (tensorflow processing unit). It is also 25% faster than GPU.
 * Data from [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 * Configured TPU.
 * Preform Preprocessing on data.
